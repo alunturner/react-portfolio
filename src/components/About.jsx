@@ -1,9 +1,10 @@
 import React from "react";
-import picture from "./images/logo512.png";
+import picture from "../images/logo512.png";
 
 function About() {
   return (
     <>
+      <h3>ABOUT ME</h3>
       <img
         src={picture}
         alt="this will be my face"
