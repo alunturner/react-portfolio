@@ -1,5 +1,5 @@
 import React from "react";
-import picture from "../images/logo512.png";
+import alun from "../images/alun2.jpg";
 import { Typography, Card } from "@material-ui/core";
 
 function About() {
@@ -8,7 +8,7 @@ function About() {
       <Typography variant="h3">ABOUT ME</Typography>
       <Card>
         <img
-          src={picture}
+          src={alun}
           alt="this will be my face"
           style={{ display: "inline-block", height: "10vh" }}
         />
