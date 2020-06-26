@@ -1,7 +1,8 @@
 import React from "react";
+import { Typography } from "@material-ui/core";
 
 function BigHeading({ words }) {
-  return <h1>{words}</h1>;
+  return <Typography variant="h1">{words}</Typography>;
 }
 
 export default BigHeading;

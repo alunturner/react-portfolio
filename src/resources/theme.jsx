@@ -14,7 +14,7 @@ let theme = createMuiTheme({
   },
 
   typography: {
-    fontFamily: ["Roboto"].join(","),
+    fontFamily: ["Major Mono Display", "Roboto"].join(","),
     fontSize: 14,
     h2: {
       fontSize: 52,
