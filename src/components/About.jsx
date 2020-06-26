@@ -1,16 +1,19 @@
 import React from "react";
 import picture from "../images/logo512.png";
+import { Typography, Card } from "@material-ui/core";
 
 function About() {
   return (
     <>
-      <h3>ABOUT ME</h3>
-      <img
-        src={picture}
-        alt="this will be my face"
-        style={{ display: "inline-block", height: "10vh" }}
-      />
-      <p>Some text about me goes here</p>
+      <Typography variant="h3">ABOUT ME</Typography>
+      <Card>
+        <img
+          src={picture}
+          alt="this will be my face"
+          style={{ display: "inline-block", height: "10vh" }}
+        />
+      </Card>
+      <Typography variant="body1">Some text about me goes here</Typography>
     </>
   );
 }
