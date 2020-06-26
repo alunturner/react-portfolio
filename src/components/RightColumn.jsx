@@ -1,7 +1,12 @@
 import React from "react";
+import { Typography } from "@material-ui/core";
 
 function RightColumn() {
-  return <h2>This will be the right column in the contact page</h2>;
+  return (
+    <Typography variant="h3">
+      This will be the right column in the contact page
+    </Typography>
+  );
 }
 
 export default RightColumn;

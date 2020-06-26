@@ -1,15 +1,16 @@
 import React from "react";
 import LeftColumn from "./LeftColumn";
 import RightColumn from "./RightColumn";
+import { Typography, Paper } from "@material-ui/core";
 
 function Contact() {
   return (
     <>
-      <h3>CONTACT</h3>
-      <div style={{ display: "flex" }}>
+      <Typography variant="h3">CONTACT</Typography>
+      <Paper style={{ display: "flex" }}>
         <LeftColumn />
         <RightColumn />
-      </div>
+      </Paper>
     </>
   );
 }
