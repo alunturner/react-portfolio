@@ -6,6 +6,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import { ThemeProvider } from "@material-ui/core";
+import theme from "./resources/theme.jsx";
 
 function App() {
   return (
