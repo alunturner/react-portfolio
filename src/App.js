@@ -5,18 +5,21 @@ import Landing from "./components/Landing";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import { ThemeProvider } from "@material-ui/core";
 
 function App() {
   return (
-    <>
-      <Landing />
-      <Separator />
-      <About />
-      <Separator />
-      <Portfolio />
-      <Separator />
-      <Contact />
-    </>
+    <ThemeProvider theme={theme}>
+      <>
+        <Landing />
+        <Separator />
+        <About />
+        <Separator />
+        <Portfolio />
+        <Separator />
+        <Contact />
+      </>
+    </ThemeProvider>
   );
 }
 
