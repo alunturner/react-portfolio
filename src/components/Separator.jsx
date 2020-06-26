@@ -1,7 +1,7 @@
 import React from "react";
 
 function Separator() {
-  return <hr />;
+  return <div className="down-triangle"></div>;
 }
 
 export default Separator;
