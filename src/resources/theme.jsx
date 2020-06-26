@@ -3,12 +3,13 @@ import { createMuiTheme, responsiveFontSizes } from "@material-ui/core/styles";
 let theme = createMuiTheme({
   palette: {
     // used to represent primary interface elements for a user
+    // Cambridge blue: #a3c1ad
     primary: {
-      main: "#00008B",
+      main: "#005ba8", //Uppingham blue
     },
     // used to represent secondary interface elements for a user
     secondary: {
-      main: "#FFFFFF",
+      main: "#5d8aa8", //RAF blue
     },
   },
 
