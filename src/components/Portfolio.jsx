@@ -1,17 +1,20 @@
 import React from "react";
 import Tile from "./Tile";
+import { Typography, Card } from "@material-ui/core";
 
 function Portfolio() {
   return (
     <>
-      <h3>PORTFOLIO</h3>
-      <div style={{ display: "flex" }}>
+      <Typography variant="h3">PORTFOLIO</Typography>
+      <Card style={{ display: "flex" }}>
         <Tile />
         <Tile />
         <Tile />
         <Tile />
-      </div>
-      <p>I'll also put a pdf of my CV on this part</p>
+      </Card>
+      <Typography variant="body1">
+        I'll also put a pdf of my CV on this part
+      </Typography>
     </>
   );
 }
