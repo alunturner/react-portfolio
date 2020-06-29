@@ -13,6 +13,7 @@ function About() {
   return (
     <Paper
       id="about"
+      elevation={5}
       style={{
         display: "flex",
         flexDirection: "column",

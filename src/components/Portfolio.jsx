@@ -20,6 +20,7 @@ function Portfolio() {
   return (
     <Paper
       id="portfolio"
+      elevation={5}
       style={{
         display: "flex",
         flexDirection: "column",

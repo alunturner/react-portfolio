@@ -17,6 +17,7 @@ function Contact() {
   return (
     <Paper
       id="contact"
+      elevation={5}
       style={{
         display: "flex",
         flexDirection: "column",
