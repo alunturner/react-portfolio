@@ -13,10 +13,10 @@ import {
 } from "@material-ui/core";
 
 function Portfolio() {
-  // geometric is 1280 x 914px
+  // geometric is 1600 x 900
   let cardWidth = window.innerWidth * 0.75;
-  let scaleFactor = cardWidth / 1280;
-  let backgroundHeight = 914 * scaleFactor;
+  let scaleFactor = cardWidth / 1600;
+  let backgroundHeight = 900 * scaleFactor;
   return (
     <Paper
       id="portfolio"

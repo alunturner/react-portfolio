@@ -4,7 +4,7 @@ import { Paper, Typography } from "@material-ui/core";
 function Landing() {
   let windowWidth = window.innerWidth;
   let stringLength = "Alun Turner".length;
-  let sizePerChar = (1.3 * windowWidth) / stringLength;
+  let sizePerChar = (1.25 * windowWidth) / stringLength;
 
   return (
     <Paper elevation={5}>
