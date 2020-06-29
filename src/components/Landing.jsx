@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography } from "@material-ui/core";
+import { Paper, Typography } from "@material-ui/core";
 
 function Landing() {
   let windowWidth = window.innerWidth;
@@ -7,7 +7,7 @@ function Landing() {
   let sizePerChar = (1.2 * windowWidth) / stringLength;
 
   return (
-    <>
+    <Paper>
       <Typography variant="h1" style={{ fontSize: `${sizePerChar}px` }}>
         <a href={`#about`}>Alun Turner</a>
       </Typography>
@@ -17,7 +17,7 @@ function Landing() {
       <Typography variant="h1" style={{ fontSize: `${sizePerChar}px` }}>
         <a href={`#contact`}>Contact</a>
       </Typography>
-    </>
+    </Paper>
   );
 }
 
