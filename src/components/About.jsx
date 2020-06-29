@@ -1,20 +1,38 @@
 import React from "react";
 import alun from "../images/alun2.jpg";
-import { Typography, Card } from "@material-ui/core";
+import {
+  Typography,
+  Paper,
+  Card,
+  CardActionArea,
+  CardMedia,
+  CardContent,
+} from "@material-ui/core";
 
 function About() {
   return (
-    <>
-      <Typography variant="h3">ABOUT ME</Typography>
+    <Paper
+      id="about"
+      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+    >
       <Card>
-        <img
-          src={alun}
-          alt="this will be my face"
-          style={{ display: "inline-block", height: "10vh" }}
-        />
+        <CardActionArea>
+          <CardMedia>
+            <img
+              src={alun}
+              alt="this will be my face"
+              style={{ width: "100%" }}
+            />
+          </CardMedia>
+          <CardContent>
+            <Typography variant="h2">A bit about me</Typography>
+            <Typography variant="body1">
+              Some text about me goes here
+            </Typography>
+          </CardContent>
+        </CardActionArea>
       </Card>
-      <Typography variant="body1">Some text about me goes here</Typography>
-    </>
+    </Paper>
   );
 }
 
