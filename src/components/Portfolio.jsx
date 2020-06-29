@@ -26,6 +26,7 @@ function Portfolio() {
         flexDirection: "column",
         alignItems: "center",
         padding: "10vh 0",
+        backgroundColor: "#a3c1ad",
       }}
     >
       <Card style={{ width: "75%" }}>

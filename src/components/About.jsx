@@ -19,6 +19,7 @@ function About() {
         flexDirection: "column",
         alignItems: "center",
         padding: "10vh 0",
+        backgroundColor: "#005ba8",
       }}
     >
       <Card style={{ width: "75%", height: "40%" }}>

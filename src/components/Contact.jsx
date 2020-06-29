@@ -12,6 +12,7 @@ import {
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import MenuBookIcon from "@material-ui/icons/MenuBook";
+import EmailIcon from "@material-ui/icons/Email";
 
 function Contact() {
   return (
@@ -23,11 +24,14 @@ function Contact() {
         flexDirection: "column",
         alignItems: "center",
         padding: "10vh 0",
+        backgroundColor: "#5d8aa8",
       }}
     >
       <Card>
         <CardContent>
-          <Typography variant="h3">CONTACT</Typography>
+          <Typography variant="h3" align="center">
+            CONTACT
+          </Typography>
           <List>
             <ListItem>
               <ListItemIcon>
@@ -35,6 +39,17 @@ function Contact() {
               </ListItemIcon>
               <ListItemText primary="LinkedIn"></ListItemText>
             </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <EmailIcon />
+              </ListItemIcon>
+              <ListItemText primary="Direct"></ListItemText>
+            </ListItem>
+          </List>
+          <Typography variant="h3" align="center">
+            CONNECT
+          </Typography>
+          <List>
             <ListItem>
               <ListItemIcon>
                 <MenuBookIcon />
