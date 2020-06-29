@@ -61,6 +61,21 @@ let theme = createMuiTheme({
         fontSize: 16,
       },
     },
+    body1: {
+      fontSize: 32,
+      "@media screen and (min-width:1024px)": {
+        fontSize: 24,
+      },
+      "@media screen and (min-width:768px)": {
+        fontSize: 18,
+      },
+      "@media screen and (min-width:568px)": {
+        fontSize: 16,
+      },
+      "@media screen and (min-width:320px)": {
+        fontSize: 12,
+      },
+    },
   },
 
   // allows us to override css sheets in this file, instructions here https://material-ui.com/customization/globals/

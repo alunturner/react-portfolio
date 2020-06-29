@@ -2,6 +2,7 @@ import React from "react";
 import Tiles from "./Tiles";
 import geometric from "../images/geometric.jpg";
 import {
+  Button,
   Typography,
   Paper,
   Card,
@@ -12,6 +13,10 @@ import {
 } from "@material-ui/core";
 
 function Portfolio() {
+  // geometric is 1280 x 914px
+  let cardWidth = window.innerWidth * 0.75;
+  let scaleFactor = cardWidth / 1280;
+  let backgroundHeight = 914 * scaleFactor;
   return (
     <Paper
       id="portfolio"
@@ -22,7 +27,7 @@ function Portfolio() {
         padding: "10vh 0",
       }}
     >
-      <Card style={{ width: "75%", height: "40%" }}>
+      <Card style={{ width: "75%" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -31,7 +36,12 @@ function Portfolio() {
             src={geometric}
             title="geometric background"
           />
-          <Tiles />
+          <div
+            className="project-tiles-container"
+            style={{ height: `${backgroundHeight}px` }}
+          >
+            <Tiles />
+          </div>
           <CardContent>
             <Typography variant="h4">PORTFOLIO</Typography>
             <Typography variant="body1">
@@ -39,7 +49,11 @@ function Portfolio() {
             </Typography>
           </CardContent>
         </CardActionArea>
-        <CardActions>I'll put a button here for downloading a cv</CardActions>
+        <CardActions>
+          <Button size="small" variant="contained">
+            Download CV
+          </Button>
+        </CardActions>
       </Card>
     </Paper>
   );

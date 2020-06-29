@@ -9,6 +9,16 @@ a {
   clip-path: polygon(50% 100%, 100% 0%, 0% 0%);
 }
 
-.about-container {
-  width: 70%;
+.project-tiles-container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.project-tile {
+  width: 18%;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import picture from "../images/logo192.png";
-import { Paper } from "@material-ui/core";
+import { Card, CardActionArea, CardMedia } from "@material-ui/core";
 
 function Tiles() {
   let arrayOfProjects = [
@@ -35,11 +35,21 @@ function Tiles() {
       tech: ["tool1", "tool2"],
     },
   ];
-  return (
-    <Paper>
-      <img src={picture} alt="a project pic" style={{ width: "5vw" }} />
-    </Paper>
-  );
+  return arrayOfProjects.map((project) => {
+    return (
+      <Card className="project-tile" key={project.name}>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            alt={`project logo for ${project.name}`}
+            width="100%"
+            src={picture}
+            title={`project logo for ${project.name}`}
+          />
+        </CardActionArea>
+      </Card>
+    );
+  });
 }
 
 export default Tiles;
