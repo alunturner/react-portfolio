@@ -9,6 +9,9 @@ import {
   Card,
   CardContent,
 } from "@material-ui/core";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import MenuBookIcon from "@material-ui/icons/MenuBook";
 
 function Contact() {
   return (
@@ -26,15 +29,21 @@ function Contact() {
           <Typography variant="h3">CONTACT</Typography>
           <List>
             <ListItem>
-              <ListItemIcon></ListItemIcon>
+              <ListItemIcon>
+                <LinkedInIcon />
+              </ListItemIcon>
               <ListItemText primary="LinkedIn"></ListItemText>
             </ListItem>
             <ListItem>
-              <ListItemIcon></ListItemIcon>
+              <ListItemIcon>
+                <MenuBookIcon />
+              </ListItemIcon>
               <ListItemText primary="Blog"></ListItemText>
             </ListItem>
             <ListItem>
-              <ListItemIcon></ListItemIcon>
+              <ListItemIcon>
+                <GitHubIcon />
+              </ListItemIcon>
               <ListItemText primary="GitHub"></ListItemText>
             </ListItem>
           </List>
