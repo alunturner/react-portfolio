@@ -13,19 +13,24 @@ function About() {
   return (
     <Paper
       id="about"
-      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        padding: "10vh 0",
+      }}
     >
-      <Card>
+      <Card style={{ width: "75%", height: "40%" }}>
         <CardActionArea>
-          <CardMedia>
-            <img
-              src={alun}
-              alt="this will be my face"
-              style={{ width: "100%" }}
-            />
-          </CardMedia>
+          <CardMedia
+            component="img"
+            alt="the author in profile"
+            width="100%"
+            src={alun}
+            title="author profile"
+          />
           <CardContent>
-            <Typography variant="h2">A bit about me</Typography>
+            <Typography variant="h4">ABOUT ME</Typography>
             <Typography variant="body1">
               Some text about me goes here
             </Typography>

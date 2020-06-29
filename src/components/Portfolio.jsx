@@ -1,21 +1,47 @@
 import React from "react";
-import Tile from "./Tile";
-import { Typography, Card } from "@material-ui/core";
+import Tiles from "./Tiles";
+import geometric from "../images/geometric.jpg";
+import {
+  Typography,
+  Paper,
+  Card,
+  CardActionArea,
+  CardMedia,
+  CardContent,
+  CardActions,
+} from "@material-ui/core";
 
 function Portfolio() {
   return (
-    <>
-      <Typography variant="h3">PORTFOLIO</Typography>
-      <Card style={{ display: "flex" }}>
-        <Tile />
-        <Tile />
-        <Tile />
-        <Tile />
+    <Paper
+      id="portfolio"
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        padding: "10vh 0",
+      }}
+    >
+      <Card style={{ width: "75%", height: "40%" }}>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            alt="geometric background"
+            width="100%"
+            src={geometric}
+            title="geometric background"
+          />
+          <Tiles />
+          <CardContent>
+            <Typography variant="h4">PORTFOLIO</Typography>
+            <Typography variant="body1">
+              This is a short description of the work I like doing
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>I'll put a button here for downloading a cv</CardActions>
       </Card>
-      <Typography variant="body1">
-        I'll also put a pdf of my CV on this part
-      </Typography>
-    </>
+    </Paper>
   );
 }
 
