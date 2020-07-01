@@ -5,7 +5,6 @@ import {
   Typography,
   Paper,
   Card,
-  CardActionArea,
   CardMedia,
   CardContent,
 } from "@material-ui/core";
@@ -28,27 +27,25 @@ function Portfolio() {
       }}
     >
       <Card style={{ width: "75%" }}>
-        <CardActionArea>
-          <CardMedia
-            component="img"
-            alt="geometric background"
-            width="100%"
-            src={geometric}
-            title="geometric background"
-          />
-          <div
-            className="project-tiles-container"
-            style={{ height: `${backgroundHeight}px` }}
-          >
-            <Tiles />
-          </div>
-          <CardContent>
-            <Typography variant="h4">PORTFOLIO</Typography>
-            <Typography variant="body1">
-              This is a short description of the work I like doing
-            </Typography>
-          </CardContent>
-        </CardActionArea>
+        <CardMedia
+          component="img"
+          alt="geometric background"
+          width="100%"
+          src={geometric}
+          title="geometric background"
+        />
+        <div
+          className="project-tiles-container"
+          style={{ height: `${backgroundHeight}px` }}
+        >
+          <Tiles />
+        </div>
+        <CardContent>
+          <Typography variant="h4">PORTFOLIO</Typography>
+          <Typography variant="body1">
+            This is a short description of the work I like doing
+          </Typography>
+        </CardContent>
       </Card>
     </Paper>
   );
