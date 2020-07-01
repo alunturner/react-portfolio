@@ -11,7 +11,7 @@ import {
 function Tile({ project }) {
   return (
     <Card className="project-tile" key={project.name}>
-      <img src={picture} alt="placeholder" style={{ width: "20%" }} />
+      <img src={picture} alt="placeholder" />
       <CardContent>
         <Typography>{`${project.name}, ${project.description}`}</Typography>
       </CardContent>

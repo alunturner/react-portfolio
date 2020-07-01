@@ -18,14 +18,12 @@ function Portfolio() {
         backgroundColor: "#a3c1ad",
       }}
     >
-      <Card
-        style={{
-          width: "75%",
-        }}
-      >
+      <Card className="portfolio-container">
         <CardContent>
           <Typography variant="h4">PORTFOLIO</Typography>
-          <Tiles />
+          <div className="tile-container">
+            <Tiles />
+          </div>
         </CardContent>
       </Card>
     </Paper>

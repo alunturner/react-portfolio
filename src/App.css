@@ -14,10 +14,23 @@ a {
   clip-path: polygon(50% 100%, 100% 0%, 0% 0%);
 }
 
-.project-tile {
-  width: 80%;
-  margin: 2vh auto;
+.portfolio-container {
+  width: 75%;
+}
+
+.tile-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+}
+
+.project-tile {
+  width: 75%;
+  margin: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-tile img {
+  width: 100%;
 }
