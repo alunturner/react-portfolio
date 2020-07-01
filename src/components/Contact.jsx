@@ -20,6 +20,8 @@ function Contact() {
       id="contact"
       elevation={5}
       style={{
+        width: "100vw",
+        height: "100vh",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",

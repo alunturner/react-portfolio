@@ -7,6 +7,8 @@ import {
   CardActions,
   Button,
 } from "@material-ui/core";
+import WebAssetIcon from "@material-ui/icons/WebAsset";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 const images = require.context("../images", true);
 
@@ -22,12 +24,14 @@ function Tile({ project }) {
       <CardActions>
         <a href={project.appUrl}>
           <Button>
-            <Typography variant="body2">Application</Typography>
+            <WebAssetIcon />
+            <Typography variant="body2">App</Typography>
           </Button>
         </a>
         <a href={project.repoUrl}>
           <Button>
-            <Typography variant="body2">Repository</Typography>
+            <GitHubIcon />
+            <Typography variant="body2">Code</Typography>
           </Button>
         </a>
       </CardActions>
