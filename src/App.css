@@ -16,4 +16,8 @@ a {
 
 .project-tile {
   width: 80%;
+  margin: 2vh auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
