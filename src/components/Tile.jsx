@@ -16,14 +16,19 @@ function Tile({ project }) {
     <Card className="project-tile" key={project.name}>
       <img src={picture} alt="placeholder" />
       <CardContent>
-        <Typography>{`${project.name}, ${project.description}`}</Typography>
+        <Typography variant="h4">{project.name}</Typography>
+        <Typography variant="body1">{project.description}</Typography>
       </CardContent>
       <CardActions>
         <a href={project.appUrl}>
-          <Button>Application</Button>
+          <Button>
+            <Typography variant="body2">Application</Typography>
+          </Button>
         </a>
         <a href={project.repoUrl}>
-          <Button>Repository</Button>
+          <Button>
+            <Typography variant="body2">Repository</Typography>
+          </Button>
         </a>
       </CardActions>
     </Card>
