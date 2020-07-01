@@ -16,25 +16,13 @@ import EmailIcon from "@material-ui/icons/Email";
 
 function Contact() {
   return (
-    <Paper
-      id="contact"
-      elevation={5}
-      style={{
-        width: "100vw",
-        height: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        padding: "10vh 0",
-        backgroundColor: "#5d8aa8",
-      }}
-    >
+    <Paper id="contact" elevation={5}>
       <Card>
-        <CardContent>
+        <CardContent className="contact-container">
           <Typography variant="h3" align="center">
             CONTACT
           </Typography>
-          <List>
+          <List disablePadding={true}>
             <a href="https://linkedin.com/in/alunturner">
               <ListItem>
                 <ListItemIcon>
@@ -55,7 +43,7 @@ function Contact() {
           <Typography variant="h3" align="center">
             CONNECT
           </Typography>
-          <List>
+          <List disablePadding={true}>
             <a href="https://www.flyingtocoding.com/">
               <ListItem>
                 <ListItemIcon>
