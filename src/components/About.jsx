@@ -10,17 +10,7 @@ import {
 
 function About() {
   return (
-    <Paper
-      id="about"
-      elevation={5}
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        padding: "10vh 0",
-        backgroundColor: "#005ba8",
-      }}
-    >
+    <Paper id="about" elevation={5}>
       <Card style={{ width: "75%", height: "40%" }}>
         <CardMedia
           component="img"

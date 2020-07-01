@@ -7,7 +7,7 @@ function Landing() {
   let sizePerChar = Math.floor((1.25 * windowWidth) / stringLength);
 
   return (
-    <Paper elevation={5}>
+    <Paper elevation={5} id="landing">
       <Typography variant="h1" style={{ fontSize: `${sizePerChar}px` }}>
         <a href={`#about`}>Alun Turner</a>
       </Typography>
