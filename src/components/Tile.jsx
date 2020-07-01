@@ -19,8 +19,12 @@ function Tile({ project }) {
         <Typography>{`${project.name}, ${project.description}`}</Typography>
       </CardContent>
       <CardActions>
-        <Button>Application</Button>
-        <Button>Repository</Button>
+        <a href={project.appUrl}>
+          <Button>Application</Button>
+        </a>
+        <a href={project.repoUrl}>
+          <Button>Repository</Button>
+        </a>
       </CardActions>
     </Card>
   );
