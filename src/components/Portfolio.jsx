@@ -2,14 +2,12 @@ import React from "react";
 import Tiles from "./Tiles";
 import geometric from "../images/geometric.jpg";
 import {
-  Button,
   Typography,
   Paper,
   Card,
   CardActionArea,
   CardMedia,
   CardContent,
-  CardActions,
 } from "@material-ui/core";
 
 function Portfolio() {
@@ -51,11 +49,6 @@ function Portfolio() {
             </Typography>
           </CardContent>
         </CardActionArea>
-        <CardActions>
-          <Button size="small" variant="contained">
-            Download CV
-          </Button>
-        </CardActions>
       </Card>
     </Paper>
   );
