@@ -4,7 +4,6 @@ import {
   Typography,
   Paper,
   Card,
-  CardActionArea,
   CardMedia,
   CardContent,
 } from "@material-ui/core";
@@ -23,21 +22,25 @@ function About() {
       }}
     >
       <Card style={{ width: "75%", height: "40%" }}>
-        <CardActionArea>
-          <CardMedia
-            component="img"
-            alt="the author in profile"
-            width="100%"
-            src={alun}
-            title="author profile"
-          />
-          <CardContent>
-            <Typography variant="h4">ABOUT ME</Typography>
-            <Typography variant="body1">
-              Some text about me goes here
-            </Typography>
-          </CardContent>
-        </CardActionArea>
+        <CardMedia
+          component="img"
+          alt="the author in profile"
+          width="100%"
+          src={alun}
+          title="author profile"
+        />
+        <CardContent>
+          <Typography variant="h4">ABOUT ME</Typography>
+          <Typography variant="body1">
+            My name is Alun Turner and I'm a trainee web developer based in
+            Hampshire in the UK. I was previously a helicopter pilot in the
+            military but now I'm swapping cyclic and collective for keyboard and
+            mouse instead.
+            <br />I love to work with React but I'm constantly seeking out new
+            things to learn and work with. Please have a look at my work and get
+            in touch if you'd like.
+          </Typography>
+        </CardContent>
       </Card>
     </Paper>
   );
