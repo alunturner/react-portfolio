@@ -14,13 +14,6 @@ a {
   clip-path: polygon(50% 100%, 100% 0%, 0% 0%);
 }
 
-.project-tiles-container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
 .project-tile {
-  width: 18%;
+  width: 80%;
 }
