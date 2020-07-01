@@ -19,9 +19,11 @@ function Contact() {
     <Paper id="contact" elevation={5}>
       <Card>
         <CardContent className="contact-container">
+          <br />
           <Typography variant="h3" align="center">
             CONTACT
           </Typography>
+          <br />
           <List disablePadding={true}>
             <a href="https://linkedin.com/in/alunturner">
               <ListItem>
@@ -40,9 +42,11 @@ function Contact() {
               </ListItem>
             </a>
           </List>
+          <br />
           <Typography variant="h3" align="center">
             CONNECT
           </Typography>
+          <br />
           <List disablePadding={true}>
             <a href="https://www.flyingtocoding.com/">
               <ListItem>
