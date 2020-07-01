@@ -1,5 +1,5 @@
 import React from "react";
-import picture from "../images/logo192.png";
+// import picture from "../images/nc-news-backend.png";
 import {
   Typography,
   Card,
@@ -8,7 +8,10 @@ import {
   Button,
 } from "@material-ui/core";
 
+const images = require.context("../images", true);
+
 function Tile({ project }) {
+  let picture = images("./" + project.img);
   return (
     <Card className="project-tile" key={project.name}>
       <img src={picture} alt="placeholder" />
