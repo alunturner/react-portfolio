@@ -15,6 +15,9 @@ let theme = createMuiTheme({
 
   typography: {
     fontFamily: ["Major Mono Display", "Montserrat"].join(","),
+    "@media (max-width: 420px)": {
+      fontSize: "0.1rem",
+    },
     "@media (max-width: 600px)": {
       fontSize: "0.8rem",
     },
