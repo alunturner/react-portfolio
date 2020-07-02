@@ -20,7 +20,7 @@ function About() {
           title="author profile"
         />
         <CardContent>
-          <Typography variant="h2">
+          <Typography variant="h2" gutterBottom={false}>
             <span className="about-span">A</span>bout me
           </Typography>
           <Typography variant="body1">

@@ -124,3 +124,7 @@ body .contact-span {
 .project-tile img {
   width: 100%;
 }
+
+.MuiCardActions-root {
+  justify-content: space-between;
+}

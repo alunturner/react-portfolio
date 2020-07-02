@@ -23,13 +23,13 @@ function Tile({ project }) {
       </CardContent>
       <CardActions>
         <a href={project.appUrl}>
-          <Button>
+          <Button variant="outlined" color="primary" size="small">
             <WebAssetIcon />
             <Typography variant="body2">App</Typography>
           </Button>
         </a>
         <a href={project.repoUrl}>
-          <Button>
+          <Button variant="outlined" color="primary" size="small">
             <GitHubIcon />
             <Typography variant="body2">Code</Typography>
           </Button>
