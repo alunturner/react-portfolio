@@ -29,7 +29,7 @@ a {
   flex-direction: column;
   align-items: center;
   padding: 10vh 0;
-  background-color: #005ba8;
+  background: linear-gradient(#005ba8, #005ba8);
 }
 
 body .about-span {
@@ -45,7 +45,7 @@ body .about-span {
   flex-direction: column;
   align-items: center;
   padding: 10vh 0;
-  background-color: #a3c1ad;
+  background: linear-gradient(#a3c1ad, #a3c1ad);
 }
 
 body .portfolio-span {
@@ -61,7 +61,7 @@ body .portfolio-span {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #5d8aa8;
+  background: linear-gradient(#5d8aa8, #5d8aa8);
 }
 
 body .contact-span {
