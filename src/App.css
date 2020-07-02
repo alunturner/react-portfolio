@@ -33,8 +33,10 @@ a {
 }
 
 body .about-span {
-  color: #005ba8;
   font-weight: bold;
+  background: -webkit-linear-gradient(#000, #005ba8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #portfolio {
@@ -47,7 +49,9 @@ body .about-span {
 }
 
 body .portfolio-span {
-  color: #a3c1ad;
+  background: -webkit-linear-gradient(#000, #a3c1ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #contact {
@@ -61,7 +65,9 @@ body .portfolio-span {
 }
 
 body .contact-span {
-  color: #5d8aa8;
+  background: -webkit-linear-gradient(#000, #5d8aa8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .down-triangle {
