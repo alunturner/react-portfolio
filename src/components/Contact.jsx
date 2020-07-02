@@ -21,7 +21,7 @@ function Contact() {
         <CardContent className="contact-container">
           <br />
           <Typography variant="h3" align="center">
-            <span>C</span>
+            <span className="contact-span">C</span>
             ontact
           </Typography>
           <br />
@@ -45,7 +45,7 @@ function Contact() {
           </List>
           <br />
           <Typography variant="h3" align="center">
-            <span>C</span>
+            <span className="contact-span">C</span>
             onnect
           </Typography>
           <br />

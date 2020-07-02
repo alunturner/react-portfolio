@@ -32,7 +32,7 @@ a {
   background-color: #005ba8;
 }
 
-#about span {
+body .about-span {
   color: #005ba8;
   font-weight: bold;
 }
@@ -46,7 +46,7 @@ a {
   background-color: #a3c1ad;
 }
 
-#portfolio span {
+body .portfolio-span {
   color: #a3c1ad;
 }
 
@@ -60,7 +60,7 @@ a {
   background-color: #5d8aa8;
 }
 
-.contact-container > h3 > span {
+body .contact-span {
   color: #5d8aa8;
 }
 

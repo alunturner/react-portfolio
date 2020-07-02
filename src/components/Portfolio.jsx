@@ -8,7 +8,7 @@ function Portfolio() {
       <Card className="portfolio-container">
         <CardContent>
           <Typography variant="h4">
-            <span>P</span>ortfolio
+            <span className="portfolio-span">P</span>ortfolio
           </Typography>
           <div className="tile-container">
             <Tiles />
