@@ -121,10 +121,24 @@ body .contact-span {
   flex-direction: column;
 }
 
+@media only screen and (min-width: 960px) {
+  .project-tile {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .project-tile {
+    width: 30%;
+  }
+}
+
 .project-tile img {
   width: 100%;
 }
 
 .MuiCardActions-root {
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.MuiSvgIcon-root {
+  margin-right: 0.5vw;
 }

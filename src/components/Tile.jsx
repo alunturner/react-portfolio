@@ -19,19 +19,22 @@ function Tile({ project }) {
       <img src={picture} alt="placeholder" />
       <CardContent>
         <Typography variant="h4">{project.name}</Typography>
-        <Typography variant="body1">{project.description}</Typography>
+        <Typography variant="body1">
+          <br />
+          {project.description}
+        </Typography>
       </CardContent>
       <CardActions>
         <a href={project.appUrl}>
-          <Button variant="outlined" color="primary" size="small">
+          <Button variant="outlined" size="small">
             <WebAssetIcon />
-            <Typography variant="body2">App</Typography>
+            <Typography variant="body1">App</Typography>
           </Button>
         </a>
         <a href={project.repoUrl}>
-          <Button variant="outlined" color="primary" size="small">
+          <Button variant="outlined" size="small">
             <GitHubIcon />
-            <Typography variant="body2">Code</Typography>
+            <Typography variant="body1">Code</Typography>
           </Button>
         </a>
       </CardActions>

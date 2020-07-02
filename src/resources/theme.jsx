@@ -15,14 +15,22 @@ let theme = createMuiTheme({
 
   typography: {
     fontFamily: ["Major Mono Display", "Montserrat"].join(","),
-    fontSize: 16,
+    "@media (max-width: 600px)": {
+      fontSize: "0.8rem",
+    },
+    "@media (max-width: 960px)": {
+      fontSize: "1.1rem",
+    },
+    "@media (max-width: 1280px)": {
+      fontSize: "1.3rem",
+    },
+    "@media (max-width: 1920px)": {
+      fontSize: "1.5rem",
+    },
     body1: {
       fontFamily: "Montserrat",
     },
   },
-
-  // allows us to override css sheets in this file, instructions here https://material-ui.com/customization/globals/
-  overrides: {},
 });
 
 theme = responsiveFontSizes(theme);
