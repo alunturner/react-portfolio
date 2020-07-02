@@ -21,7 +21,8 @@ function Contact() {
         <CardContent className="contact-container">
           <br />
           <Typography variant="h3" align="center">
-            Contact
+            <span>C</span>
+            ontact
           </Typography>
           <br />
           <List disablePadding={true}>
@@ -44,7 +45,8 @@ function Contact() {
           </List>
           <br />
           <Typography variant="h3" align="center">
-            Connect
+            <span>C</span>
+            onnect
           </Typography>
           <br />
           <List disablePadding={true}>

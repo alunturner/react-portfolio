@@ -20,7 +20,9 @@ function About() {
           title="author profile"
         />
         <CardContent>
-          <Typography variant="h4">About Me</Typography>
+          <Typography variant="h4">
+            <span>A</span>bout me
+          </Typography>
           <Typography variant="body1">
             My name is Alun Turner and I'm a trainee full stack web developer
             based in Hampshire in the UK. I used to be a helicopter pilot in the

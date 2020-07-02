@@ -32,6 +32,11 @@ a {
   background-color: #005ba8;
 }
 
+#about span {
+  color: #005ba8;
+  font-weight: bold;
+}
+
 #portfolio {
   width: 100vw;
   display: flex;
@@ -39,6 +44,10 @@ a {
   align-items: center;
   padding: 10vh 0;
   background-color: #a3c1ad;
+}
+
+#portfolio span {
+  color: #a3c1ad;
 }
 
 #contact {
@@ -49,6 +58,10 @@ a {
   justify-content: space-around;
   align-items: center;
   background-color: #5d8aa8;
+}
+
+.contact-container > h3 > span {
+  color: #5d8aa8;
 }
 
 .down-triangle {
