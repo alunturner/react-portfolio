@@ -29,7 +29,8 @@ a {
   flex-direction: column;
   align-items: center;
   padding: 10vh 0;
-  background: linear-gradient(#005ba8, #005ba8);
+  /* background: linear-gradient(#005ba8, #005ba8); */
+  background: repeating-radial-gradient(circle at 0 0, #0066b9, #005ba8 100px);
 }
 
 body .about-span {

@@ -6,7 +6,8 @@ function Landing() {
     <Paper elevation={5} id="landing">
       <Typography variant="h1">
         <a href={`#about`}>
-          <span className="about-span">A</span>lun Turner
+          <span className="about-span">A</span>lun{" "}
+          <span className="about-span">T</span>urner
         </a>
       </Typography>
       <Typography variant="h1">
