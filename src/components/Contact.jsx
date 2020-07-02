@@ -21,7 +21,7 @@ function Contact() {
         <CardContent className="contact-container">
           <br />
           <Typography variant="h3" align="center">
-            CONTACT
+            Contact
           </Typography>
           <br />
           <List disablePadding={true}>
@@ -30,7 +30,7 @@ function Contact() {
                 <ListItemIcon>
                   <LinkedInIcon />
                 </ListItemIcon>
-                <ListItemText primary="LinkedIn"></ListItemText>
+                <ListItemText primary="Linkedin"></ListItemText>
               </ListItem>
             </a>
             <a href="mailto:alun.turner@googlemail.com">
@@ -44,7 +44,7 @@ function Contact() {
           </List>
           <br />
           <Typography variant="h3" align="center">
-            CONNECT
+            Connect
           </Typography>
           <br />
           <List disablePadding={true}>
@@ -61,7 +61,7 @@ function Contact() {
                 <ListItemIcon>
                   <GitHubIcon />
                 </ListItemIcon>
-                <ListItemText primary="GitHub"></ListItemText>
+                <ListItemText primary="Github"></ListItemText>
               </ListItem>
             </a>
           </List>

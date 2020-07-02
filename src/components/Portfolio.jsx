@@ -7,7 +7,7 @@ function Portfolio() {
     <Paper id="portfolio" elevation={5}>
       <Card className="portfolio-container">
         <CardContent>
-          <Typography variant="h4">PORTFOLIO</Typography>
+          <Typography variant="h4">Portfolio</Typography>
           <div className="tile-container">
             <Tiles />
           </div>
