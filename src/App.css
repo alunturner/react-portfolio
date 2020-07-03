@@ -37,13 +37,13 @@ body .MuiTypography-h3 {
   font-size: 7vw;
 }
 body .MuiTypography-h4 {
-  font-size: 6.5vw;
+  font-size: 3.5vw;
 }
 body .MuiTypography-body1 {
   font-size: 1.8vw;
 }
 body .MuiTypography-body2 {
-  font-size: 3vw;
+  font-size: 2vw;
 }
 .MuiButton-label {
   font-family: "Montserrat";
@@ -145,7 +145,6 @@ body .contact-span {
   justify-content: center;
   color: black;
   font-weight: 900;
-  font-size: 1.5rem;
   background: #ffffff;
 }
 
@@ -162,23 +161,8 @@ body .contact-span {
     display: none;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   .project-tile {
     width: 40%;
-  }
-}
-@media only screen and (min-width: 960px) {
-  .project-tile {
-    width: 40%;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .project-tile {
-    width: 40%;
-  }
-}
-@media only screen and (min-width: 1920px) {
-  .project-tile {
-    width: 30%;
   }
 }
