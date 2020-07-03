@@ -24,10 +24,12 @@ function Tile({ project }) {
         <CardContent>
           <Typography variant="h4">{project.name}</Typography>
           <br />
-          <div>
+          <div style={{ position: "relative" }}>
             <Typography variant="body1">{project.description}</Typography>
             {isClicked && (
-              <Typography variant="body2">{project.tech}</Typography>
+              <Typography variant="body2" className="tech-description">
+                {project.tech}
+              </Typography>
             )}
           </div>
         </CardContent>
