@@ -23,11 +23,9 @@ function Tile({ project }) {
         <img src={picture} alt="placeholder" />
         <CardContent>
           <Typography variant="h4">{project.name}</Typography>
+          <br />
           {!isClicked ? (
-            <Typography variant="body1">
-              <br />
-              {project.description}
-            </Typography>
+            <Typography variant="body1">{project.description}</Typography>
           ) : (
             <Typography variant="body2">{project.tech}</Typography>
           )}
