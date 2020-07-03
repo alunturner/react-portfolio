@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // import picture from "../images/nc-news-backend.png";
 import {
   Typography,
@@ -15,16 +15,24 @@ const images = require.context("../images", true);
 
 function Tile({ project }) {
   let picture = images("./" + project.img);
+  let [isClicked, setClicked] = useState(false);
+
   return (
     <Card className="project-tile" key={project.name}>
-      <CardActionArea>
+      <CardActionArea onClick={() => setClicked(!isClicked)}>
         <img src={picture} alt="placeholder" />
         <CardContent>
-          <Typography variant="h4">{project.name}</Typography>
-          <Typography variant="body1">
-            <br />
-            {project.description}
-          </Typography>
+          {!isClicked ? (
+            <>
+              <Typography variant="h4">{project.name}</Typography>
+              <Typography variant="body1">
+                <br />
+                {project.description}
+              </Typography>
+            </>
+          ) : (
+            <Typography variant="body2">Description goes here</Typography>
+          )}
         </CardContent>
       </CardActionArea>
       <CardActions>
