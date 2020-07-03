@@ -5,7 +5,7 @@ function Landing() {
   return (
     <Paper elevation={5} id="landing">
       <Typography variant="h1">
-        <a href={`#about`} style={{ width: "100%" }}>
+        <a href={`#about`}>
           <span className="about-span">A</span>lun{" "}
           <span className="about-span">T</span>urner
         </a>
