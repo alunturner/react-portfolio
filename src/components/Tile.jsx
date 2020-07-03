@@ -24,11 +24,12 @@ function Tile({ project }) {
         <CardContent>
           <Typography variant="h4">{project.name}</Typography>
           <br />
-          {!isClicked ? (
+          <div>
             <Typography variant="body1">{project.description}</Typography>
-          ) : (
-            <Typography variant="body2">{project.tech}</Typography>
-          )}
+            {isClicked && (
+              <Typography variant="body2">{project.tech}</Typography>
+            )}
+          </div>
         </CardContent>
       </CardActionArea>
       <CardActions>
