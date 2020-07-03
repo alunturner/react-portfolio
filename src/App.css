@@ -33,6 +33,22 @@ a {
 body .MuiTypography-h2 {
   font-size: 9.5vw;
 }
+body .MuiTypography-h3 {
+  font-size: 7vw;
+}
+body .MuiTypography-h4 {
+  font-size: 6.5vw;
+}
+body .MuiTypography-body1 {
+  font-size: 1.8vw;
+}
+body .MuiTypography-body2 {
+  font-size: 3vw;
+}
+.MuiButton-label {
+  font-family: "Montserrat";
+  font-size: 1.8vw;
+}
 
 #about {
   width: 100vw;
@@ -141,10 +157,11 @@ body .contact-span {
   justify-content: space-around;
 }
 
-.MuiButton-label {
-  font-family: "Montserrat";
+@media only screen and (max-width: 400px) {
+  .project-tile .MuiButton-startIcon {
+    display: none;
+  }
 }
-
 @media only screen and (min-width: 600px) {
   .project-tile {
     width: 40%;
