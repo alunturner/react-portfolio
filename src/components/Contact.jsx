@@ -31,7 +31,7 @@ function Contact() {
                 <ListItemIcon>
                   <LinkedInIcon />
                 </ListItemIcon>
-                <ListItemText primary="Linkedin"></ListItemText>
+                <ListItemText primary="LinkedIn"></ListItemText>
               </ListItem>
             </a>
             <a href="mailto:alun.turner@googlemail.com">
@@ -63,7 +63,7 @@ function Contact() {
                 <ListItemIcon>
                   <GitHubIcon />
                 </ListItemIcon>
-                <ListItemText primary="Github"></ListItemText>
+                <ListItemText primary="GitHub"></ListItemText>
               </ListItem>
             </a>
           </List>
