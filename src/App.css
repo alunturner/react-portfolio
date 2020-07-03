@@ -110,6 +110,17 @@ body .portfolio-span {
   background: linear-gradient(#5d8aa8, #5d8aa8);
 }
 
+#contact .contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+#contact .MuiTypography-body1 {
+  font-size: 2.5vw;
+}
+
 body .contact-span {
   background: -webkit-linear-gradient(#000, #5d8aa8);
   -webkit-background-clip: text;
