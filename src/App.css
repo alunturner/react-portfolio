@@ -112,17 +112,7 @@ body .contact-span {
   margin: 2vh;
   display: flex;
   flex-direction: column;
-}
-
-@media only screen and (min-width: 960px) {
-  .project-tile {
-    width: 40%;
-  }
-}
-@media only screen and (min-width: 1920px) {
-  .project-tile {
-    width: 30%;
-  }
+  justify-content: space-between;
 }
 
 .project-tile img {
@@ -134,4 +124,15 @@ body .contact-span {
 }
 .MuiSvgIcon-root {
   margin-right: 0.5vw;
+}
+
+@media only screen and (min-width: 960px) {
+  .project-tile {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .project-tile {
+    width: 30%;
+  }
 }
