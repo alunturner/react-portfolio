@@ -115,7 +115,7 @@ body .contact-span {
   justify-content: space-between;
 }
 
-.tech-description {
+.project-tile .tech-description {
   position: absolute;
   top: 0;
   left: 0;
@@ -126,8 +126,8 @@ body .contact-span {
   justify-content: center;
   color: black;
   font-weight: 900;
-  background: linear-gradient(white, #e2e2e2, white);
-  background: linear-gradient(90deg, white, #e2e2e2, white);
+  font-size: 1.5rem;
+  background: #ffffff;
 }
 
 .project-tile img {
