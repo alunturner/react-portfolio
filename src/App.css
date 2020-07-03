@@ -137,9 +137,6 @@ body .contact-span {
 .MuiCardActions-root {
   justify-content: space-around;
 }
-.MuiSvgIcon-root {
-  margin-right: 0.5vw;
-}
 
 @media only screen and (min-width: 960px) {
   .project-tile {
