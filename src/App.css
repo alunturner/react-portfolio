@@ -30,6 +30,9 @@ a {
 #landing .MuiTypography-h1 {
   font-size: calc(1.34 * 100vw / 11);
 }
+body .MuiTypography-h2 {
+  font-size: 9.5vw;
+}
 
 #about {
   width: 100vw;
@@ -138,7 +141,21 @@ body .contact-span {
   justify-content: space-around;
 }
 
+.MuiButton-label {
+  font-family: "Montserrat";
+}
+
+@media only screen and (min-width: 600px) {
+  .project-tile {
+    width: 40%;
+  }
+}
 @media only screen and (min-width: 960px) {
+  .project-tile {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 1280px) {
   .project-tile {
     width: 40%;
   }
