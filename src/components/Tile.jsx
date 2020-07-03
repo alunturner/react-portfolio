@@ -36,15 +36,13 @@ function Tile({ project }) {
       </CardActionArea>
       <CardActions>
         <a href={project.appUrl}>
-          <Button variant="outlined" size="small">
-            <WebAssetIcon />
-            <Typography variant="body1">App</Typography>
+          <Button variant="outlined" size="small" startIcon={<WebAssetIcon />}>
+            App
           </Button>
         </a>
         <a href={project.repoUrl}>
-          <Button variant="outlined" size="small">
-            <GitHubIcon />
-            <Typography variant="body1">Code</Typography>
+          <Button variant="outlined" size="small" startIcon={<GitHubIcon />}>
+            Code
           </Button>
         </a>
       </CardActions>

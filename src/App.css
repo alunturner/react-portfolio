@@ -28,7 +28,26 @@ a {
 }
 
 #landing .MuiTypography-h1 {
-  font-size: calc(1.35 * 100vw / 11);
+  font-size: calc(1.34 * 100vw / 11);
+}
+body .MuiTypography-h2 {
+  font-size: 9.5vw;
+}
+body .MuiTypography-h3 {
+  font-size: 7vw;
+}
+body .MuiTypography-h4 {
+  font-size: 3.5vw;
+}
+body .MuiTypography-body1 {
+  font-size: 1.8vw;
+}
+body .MuiTypography-body2 {
+  font-size: 2vw;
+}
+.MuiButton-label {
+  font-family: "Montserrat";
+  font-size: 1.8vw;
 }
 
 #about {
@@ -91,6 +110,17 @@ body .portfolio-span {
   background: linear-gradient(#5d8aa8, #5d8aa8);
 }
 
+#contact .contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+#contact .MuiTypography-body1 {
+  font-size: 2.5vw;
+}
+
 body .contact-span {
   background: -webkit-linear-gradient(#000, #5d8aa8);
   -webkit-background-clip: text;
@@ -126,7 +156,6 @@ body .contact-span {
   justify-content: center;
   color: black;
   font-weight: 900;
-  font-size: 1.5rem;
   background: #ffffff;
 }
 
@@ -137,17 +166,14 @@ body .contact-span {
 .MuiCardActions-root {
   justify-content: space-around;
 }
-.MuiSvgIcon-root {
-  margin-right: 0.5vw;
-}
 
-@media only screen and (min-width: 960px) {
-  .project-tile {
-    width: 40%;
+@media only screen and (max-width: 400px) {
+  .project-tile .MuiButton-startIcon {
+    display: none;
   }
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 800px) {
   .project-tile {
-    width: 30%;
+    width: 40%;
   }
 }

@@ -22,6 +22,7 @@ let theme = createMuiTheme({
     body2: {
       fontFamily: "Reenie Beanie",
     },
+
     //remove all this to css
     "@media (max-width: 420px)": {},
     "@media (max-width: 600px)": {},
