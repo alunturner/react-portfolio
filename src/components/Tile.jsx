@@ -22,16 +22,14 @@ function Tile({ project }) {
       <CardActionArea onClick={() => setClicked(!isClicked)}>
         <img src={picture} alt="placeholder" />
         <CardContent>
+          <Typography variant="h4">{project.name}</Typography>
           {!isClicked ? (
-            <>
-              <Typography variant="h4">{project.name}</Typography>
-              <Typography variant="body1">
-                <br />
-                {project.description}
-              </Typography>
-            </>
+            <Typography variant="body1">
+              <br />
+              {project.description}
+            </Typography>
           ) : (
-            <Typography variant="body2">Description goes here</Typography>
+            <Typography variant="body2">{project.tech}</Typography>
           )}
         </CardContent>
       </CardActionArea>

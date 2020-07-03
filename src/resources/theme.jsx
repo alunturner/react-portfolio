@@ -14,7 +14,13 @@ let theme = createMuiTheme({
   },
 
   typography: {
-    fontFamily: ["Major Mono Display", "Montserrat"].join(","),
+    fontFamily: ["Major Mono Display", "Montserrat", "Reenie Beanie"].join(","),
+    body1: {
+      fontFamily: "Montserrat",
+    },
+    body2: {
+      fontFamily: "Reenie Beanie",
+    },
     //remove all this to css
     "@media (max-width: 420px)": {
       fontSize: "0.1rem",
@@ -30,9 +36,6 @@ let theme = createMuiTheme({
     },
     "@media (max-width: 1920px)": {
       fontSize: "1.5rem",
-    },
-    body1: {
-      fontFamily: "Montserrat",
     },
   },
 });
