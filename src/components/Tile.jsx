@@ -5,6 +5,7 @@ import {
   Card,
   CardContent,
   CardActions,
+  CardActionArea,
   Button,
 } from "@material-ui/core";
 import WebAssetIcon from "@material-ui/icons/WebAsset";
@@ -16,14 +17,16 @@ function Tile({ project }) {
   let picture = images("./" + project.img);
   return (
     <Card className="project-tile" key={project.name}>
-      <img src={picture} alt="placeholder" />
-      <CardContent>
-        <Typography variant="h4">{project.name}</Typography>
-        <Typography variant="body1">
-          <br />
-          {project.description}
-        </Typography>
-      </CardContent>
+      <CardActionArea>
+        <img src={picture} alt="placeholder" />
+        <CardContent>
+          <Typography variant="h4">{project.name}</Typography>
+          <Typography variant="body1">
+            <br />
+            {project.description}
+          </Typography>
+        </CardContent>
+      </CardActionArea>
       <CardActions>
         <a href={project.appUrl}>
           <Button variant="outlined" size="small">
