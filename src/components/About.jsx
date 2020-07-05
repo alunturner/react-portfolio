@@ -30,8 +30,8 @@ function About() {
             military and now I'm swapping cyclic and collective for keyboard and
             mouse.
             <br />
-            <br />I primarily write in Javascript and work in React and Node.js.
-            Although these are my primary tools I'm always on the lookout for
+            <br />I primarily write in JavaScript and work in React and Node.js.
+            Although these are my main tools I'm always on the lookout for
             useful libraries, languages, frameworks and services to learn about
             and work with to expand my skillset.
           </Typography>
