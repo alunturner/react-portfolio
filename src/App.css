@@ -67,15 +67,15 @@ body .MuiTypography-body2 {
   );
   background: repeating-radial-gradient(
     circle at 0 0,
-    #005ba8,
-    #0066b9,
-    #005ba8 25vw
+    #a3c1ad,
+    #abcab6,
+    #a3c1ad 25vw
   );
 }
 
 body .about-span {
   font-weight: bold;
-  background: -webkit-linear-gradient(#000, #005ba8);
+  background: -webkit-linear-gradient(#000, #a3c1ad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -93,11 +93,11 @@ body .about-span {
     100% 0%,
     0% 0%
   );
-  background: linear-gradient(#a3c1ad, #c2dfcb);
+  background: linear-gradient(#5d8aa8, #4b6f88);
 }
 
 body .portfolio-span {
-  background: -webkit-linear-gradient(#000, #a3c1ad);
+  background: -webkit-linear-gradient(#000, #5d8aa8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -109,7 +109,7 @@ body .portfolio-span {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(#5d8aa8, #5d8aa8);
+  background: linear-gradient(#005ba8, #005ba8);
 }
 
 #contact .contact-container {
@@ -124,7 +124,7 @@ body .portfolio-span {
 }
 
 body .contact-span {
-  background: -webkit-linear-gradient(#000, #5d8aa8);
+  background: -webkit-linear-gradient(#000, #005ba8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
