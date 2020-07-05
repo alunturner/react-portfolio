@@ -42,10 +42,10 @@ body .MuiTypography-h4 {
   font-size: 3.5vw;
 }
 body .MuiTypography-body1 {
-  font-size: 1.8vw;
+  font-size: calc(12px + 1vw);
 }
 body .MuiTypography-body2 {
-  font-size: 2vw;
+  font-size: calc(12px + 1.8vw);
 }
 .MuiButton-label {
   font-family: "Montserrat";
