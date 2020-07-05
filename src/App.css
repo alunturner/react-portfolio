@@ -16,6 +16,7 @@ a {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-around;
   clip-path: polygon(
     0% calc(100% - 5vh),
@@ -28,10 +29,11 @@ a {
 }
 
 #landing .MuiTypography-h1 {
-  font-size: calc(1.34 * 100vw / 11);
+  font-size: calc(1.3 * 100vw / 11);
 }
 body .MuiTypography-h2 {
   font-size: 9.5vw;
+  text-align: center;
 }
 body .MuiTypography-h3 {
   font-size: 7vw;
