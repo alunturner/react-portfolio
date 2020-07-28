@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import picture from "../images/nc-news-backend.png";
 import {
   Typography,
   Card,
