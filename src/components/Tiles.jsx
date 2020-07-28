@@ -18,7 +18,8 @@ function Tiles() {
       img: "visualiser-frontend.png",
       description:
         "A full stack web app designed to fulfil the need of me and my friends for a way to watch back team Risk games for the post-game debrief. Click to see what it's built with.",
-      tech: "Built with React, CSS and FontAwesome. Hosted on Netlify.",
+      tech:
+        "Built with React, CSS, Material-UI and FontAwesome. Hosted on Netlify.",
       appUrl: "https://art-visualiser.netlify.app/",
       repoUrl: "https://github.com/ARTurnerGit/fe-mini-dominator",
     },
