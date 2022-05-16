@@ -34,16 +34,24 @@ function Tile({ project }) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <a href={project.appUrl}>
-          <Button variant="outlined" size="small" startIcon={<WebAssetIcon />}>
-            App
-          </Button>
-        </a>
-        <a href={project.repoUrl}>
-          <Button variant="outlined" size="small" startIcon={<GitHubIcon />}>
-            Code
-          </Button>
-        </a>
+        {project.appUrl && (
+          <a href={project.appUrl}>
+            <Button
+              variant="outlined"
+              size="small"
+              startIcon={<WebAssetIcon />}
+            >
+              App
+            </Button>
+          </a>
+        )}
+        {project.repoUrl && (
+          <a href={project.repoUrl}>
+            <Button variant="outlined" size="small" startIcon={<GitHubIcon />}>
+              Code
+            </Button>
+          </a>
+        )}
       </CardActions>
     </Card>
   );

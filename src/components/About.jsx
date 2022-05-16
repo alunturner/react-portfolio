@@ -25,15 +25,21 @@ function About() {
           </Typography>
           <br />
           <Typography variant="body1">
-            My name is Alun Turner and I'm a trainee full stack web developer
-            based in Hampshire in the UK. I used to be a helicopter pilot in the
-            military and now I'm swapping cyclic and collective for keyboard and
-            mouse.
+            My name is Alun Turner and I'm a front-end developer based in
+            Hampshire in the UK. I was a helicopter pilot in the military before
+            changing career in 2020 (bad timing for a career change).
             <br />
-            <br />I primarily write in JavaScript and work in React and Node.js.
-            Although these are my main tools I'm always on the lookout for
-            useful libraries, languages, frameworks and services to learn about
-            and work with to expand my skillset.
+            <br />
+            I primarily write in JavaScript and work in React and Node.js,
+            leaning towards React in my day to day role. The other things I use
+            the most through work are Jest, React Testing Library, Lodash, SCSS
+            and Material UI but I'm always learning and looking to improve. I've
+            recently done two courses by Kent C Dodds which were great.
+            <br />
+            <br />
+            Outside work I volunteer for Code Your Future and recently taught
+            the React module to London course 8, as well as running weekly drop
+            in JS sessions for the whole course.
           </Typography>
         </CardContent>
       </Card>

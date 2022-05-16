@@ -11,7 +11,6 @@ import {
 } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import MenuBookIcon from "@material-ui/icons/MenuBook";
 import EmailIcon from "@material-ui/icons/Email";
 
 function Contact() {
@@ -40,22 +39,6 @@ function Contact() {
                   <EmailIcon />
                 </ListItemIcon>
                 <ListItemText primary="Direct"></ListItemText>
-              </ListItem>
-            </a>
-          </List>
-          <br />
-          <Typography variant="h3" align="center">
-            <span className="contact-span">C</span>
-            onnect
-          </Typography>
-          <br />
-          <List disablePadding={true}>
-            <a href="https://www.flyingtocoding.com/">
-              <ListItem>
-                <ListItemIcon>
-                  <MenuBookIcon />
-                </ListItemIcon>
-                <ListItemText primary="Blog"></ListItemText>
               </ListItem>
             </a>
             <a href="https://github.com/ARTurnerGit">
