@@ -33,7 +33,7 @@ function About() {
             I primarily write in JavaScript and work in React and Node.js,
             leaning towards React in my day to day role. The other things I use
             the most through work are Jest, React Testing Library, Lodash, SCSS
-            and Material UI but I'm always learning and looking to improve. I've
+            and Material-UI but I'm always learning and looking to improve. I've
             recently done two courses by Kent C Dodds which were great.
             <br />
             <br />
